@@ -145,7 +145,7 @@ label a img {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(/Day3/images/model3.png) ; 
+    background-image: url(/images/model3.png) ; 
     background-size: cover;
 }
 
@@ -240,7 +240,7 @@ margin-bottom: 25px;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(/Day3/images/ModelS.png) ;
+    background-image: url(/images/ModelS.png) ;
     background-size: cover;
     /* border: 2px red solid; */
 }
@@ -272,7 +272,7 @@ margin-bottom: 25px;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(/Day3/images/house.png) ;
+    background-image: url(/images/house.png) ;
     background-size: cover;
     /* border: 2px red solid; */
 }
