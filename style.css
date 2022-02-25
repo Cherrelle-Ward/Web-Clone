@@ -320,3 +320,113 @@ text-decoration: none;
 color:#ffffff;
 font-weight: 500;
 }
+
+/* animation */
+
+/* NAV */
+nav {
+    animation: opacity .7s ease-in; }
+
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+50% {
+    opacity: 0.5;
+}
+        100% {
+            opacity: 1;
+        }
+    }
+/* TITLE */
+/* P */
+.animation1 {
+    animation: margin-top 2s ease-in;
+
+
+}
+
+@keyframes margin-top {
+    0% {
+        opacity: 0;
+    }
+
+30% {
+    opacity: 0;
+}
+    100% {
+        opacity: 1;
+    }
+}
+/* model 3 */
+.animation2 {
+    animation: margin 1.5s ease;
+
+
+}
+
+@keyframes margin {
+    0% {
+        opacity: 0;
+        margin-bottom: 20px;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* BUTTONS */
+/* LEFT BTN */
+
+.animation3 {
+    animation:left-btn 2.5s ease;
+
+
+}
+
+@keyframes left-btn {
+    0% {
+        opacity: 0;
+        margin-right: 60px;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.3 ease-in;
+    }
+
+    100% {
+        opacity: 1 ease-in;
+    }
+}
+.animation4 {
+    animation:right-btn 2.5s ease;
+
+
+}
+
+@keyframes right-btn {
+    0% {
+        opacity: 0;
+        margin-left: 60px;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.3 ease-in;
+    }
+
+    100% {
+        opacity: 1 ease-in;
+    }
+}
+
